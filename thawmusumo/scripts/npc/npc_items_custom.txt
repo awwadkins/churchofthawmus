@@ -1,0 +1,122 @@
+"DOTAAbilities"
+{
+	"item_armor_light"
+	{
+		"BaseClass"					"item_datadriven"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Attributes"				"MODIFIER_ATTRIBUTE_MULTIPLE"
+		"AbilityTextureName"		"item_chainmail"
+		"ID"						"1301"
+		"ItemCost"					"1000"
+		"ItemQuality"				"rare"
+		"ItemSellable"				"1"
+		"ItemPurchasable"			"1"
+		"ItemDroppable"				"0"
+		"ItemKillable"				"0"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"move_speed"			"-55"
+			}
+		}
+
+		"Modifiers"
+		{
+			"armor_light"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+				"IsDebuff"			"0"
+				"IsPurgable"		"0"
+				"Properties"
+				{
+				    "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"		"%move_speed"
+				}
+			}
+		}
+
+	}
+
+	"item_armor_medium"
+	{
+		"BaseClass"					"item_datadriven"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Attributes"				"MODIFIER_ATTRIBUTE_MULTIPLE"
+		"AbilityTextureName"		"item_blade_mail"
+		"ID"						"1302"
+		"ItemCost"					"1500"
+		"ItemQuality"				"rare"
+		"ItemSellable"				"1"
+		"ItemPurchasable"			"1"
+		"ItemDroppable"				"0"
+		"ItemKillable"				"0"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"move_speed"			"-70"
+			}
+		}
+
+		"Modifiers"
+		{
+			"armor_medium"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+				"IsDebuff"			"0"
+				"IsPurgable"		"0"
+				"Properties"
+				{
+				    "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"		"%move_speed"
+				}
+			}
+		}
+
+	}
+
+	"item_armor_heavy"
+	{
+		"BaseClass"					"item_datadriven"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Attributes"				"MODIFIER_ATTRIBUTE_MULTIPLE"
+		"AbilityTextureName"		"item_platemail"
+		"ID"						"1303"
+		"ItemCost"					"2000"
+		"ItemQuality"				"rare"
+		"ItemSellable"				"1"
+		"ItemPurchasable"			"1"
+		"ItemDroppable"				"0"
+		"ItemKillable"				"0"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"move_speed"			"-90"
+			}
+		}
+
+		"Modifiers"
+		{
+			"armor_heavy"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+				"IsDebuff"			"0"
+				"IsPurgable"		"0"
+
+				"Properties"
+				{
+				    "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"		"%move_speed"
+				}
+			}
+		}
+	}
+}

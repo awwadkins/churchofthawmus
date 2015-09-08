@@ -1,0 +1,123 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_thawmus"
+	{
+		"override_hero"					"npc_dota_hero_sven"
+
+		"AbilityLayout"					"6"
+		"Ability1"						"thawmus_lift"
+		"Ability2"						"thawmus_roid_rush"
+		"Ability3"						"thawmus_hammer"
+		"Ability4"						"dummy1"
+		"Ability5"						"dummy2"
+		"Ability6"						"thawmus_leap"
+
+		"ArmorPhysical"					"0"
+		"MagicalResistance"				"0"
+
+		"AttackCapabilities"			"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"				"0"
+		"AttackDamageMax"				"0"
+
+		"AttributePrimary"				"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"			"0"
+		"AttributeStrengthGain"			"0"
+		"AttributeBaseIntelligence"		"0"
+		"AttributeIntelligenceGain"		"0"
+		"AttributeBaseAgility"			"0"
+		"AttributeAgilityGain"			"0"
+
+		"MovementSpeed"					"385"
+		"MovementTurnRate"				"1"
+
+		"StatusHealth"					"1000"
+		"StatusHealthRegen"				"0"
+		"StatusMana"					"100"
+		"StatusManaRegen"				"5"
+
+		"VisionDaytimeRange"			"1800"
+		"VisionNighttimeRange"			"1800"
+	}
+
+	"npc_dota_hero_twins"
+	{
+		"override_hero"					"npc_dota_hero_techies"
+
+		"AbilityLayout"					"6"
+		"Ability1"						"thawmus_lift"
+		"Ability2"						"thawmus_roid_rush"
+		"Ability3"						"thawmus_hammer"
+		"Ability4"						"dummy1"
+		"Ability5"						"dummy2"
+		"Ability6"						"thawmus_leap"
+
+		"ArmorPhysical"					"0"
+		"MagicalResistance"				"0"
+
+		"AttackCapabilities"			"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"				"0"
+		"AttackDamageMax"				"0"
+
+		"AttributePrimary"				"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"			"0"
+		"AttributeStrengthGain"			"0"
+		"AttributeBaseIntelligence"		"0"
+		"AttributeIntelligenceGain"		"0"
+		"AttributeBaseAgility"			"0"
+		"AttributeAgilityGain"			"0"
+
+		"MovementSpeed"					"385"
+		"MovementTurnRate"				"1"
+
+		"StatusHealth"					"1000"
+		"StatusHealthRegen"				"0"
+		"StatusMana"					"100"
+		"StatusManaRegen"				"5"
+
+		"VisionDaytimeRange"			"1800"
+		"VisionNighttimeRange"			"1800"
+	}
+
+	"npc_dota_hero_hung"
+	{
+		"override_hero"					"npc_dota_hero_nyx_assassin"
+
+		"AbilityLayout"					"4"
+		"Ability1"						"hung_spray"
+		"Ability2"						"hung_goo_bounce"
+		"Ability3"						""
+		"Ability4"						""
+		"Ability5"						""
+		"Ability6"						""
+		"Ability7"						""
+		"Ability8"						""
+		"Ability9"						""
+		"Ability10"						""
+
+		"ArmorPhysical"					"0"
+		"MagicalResistance"				"0"
+
+		"AttackCapabilities"			"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"				"0"
+		"AttackDamageMax"				"0"
+
+		"AttributePrimary"				"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"			"0"
+		"AttributeStrengthGain"			"0"
+		"AttributeBaseIntelligence"		"0"
+		"AttributeIntelligenceGain"		"0"
+		"AttributeBaseAgility"			"0"
+		"AttributeAgilityGain"			"0"
+
+		"MovementSpeed"					"410"
+		"MovementTurnRate"				"1"
+
+		"StatusHealth"					"1000"
+		"StatusHealthRegen"				"0"
+		"StatusMana"					"100"
+		"StatusManaRegen"				"5"
+
+		"VisionDaytimeRange"			"1800"
+		"VisionNighttimeRange"			"1800"
+	}
+}
