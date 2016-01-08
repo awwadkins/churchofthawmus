@@ -1,2 +1,2 @@
 # churchofthawmus
-my map!
+Custom Dota 2 Map
